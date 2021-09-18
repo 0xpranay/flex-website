@@ -82,3 +82,25 @@ li a:hover
     margin-bottom: 30px;
     font-weight: 300px;
 }
+
+#content p
+{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#hero::before
+{
+    content: '';
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:rgba(0, 0, 0, 0.5);
+}
+
+#hero *
+{
+    z-index: 10;
+}

@@ -6,6 +6,12 @@
     border-radius: 1px;
 }
 
+
+.btn a:hover
+{
+    opacity: 0.9;
+}
+
 li
 {
     text-decoration: none;
