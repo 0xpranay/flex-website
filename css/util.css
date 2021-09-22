@@ -31,3 +31,36 @@ h1, h2
     font-weight: 300;
     line-height: 1.2;
 }
+
+/* Icons */
+
+.side-boxes
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 2rem;
+}
+
+.box
+{
+    padding: 1.5rem;
+}
+
+.side-boxes .box i
+{
+    margin-bottom: 1.2rem;
+    background-color: #28a745;
+    color: white;
+    padding: 1.2rem;
+    size: 100%;
+    border-radius: 50%;
+}
+
+.side-boxes h3
+{
+    white-space: nowrap;
+    margin-bottom: 1.1rem;
+}
