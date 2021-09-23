@@ -16,7 +16,7 @@ body
 #hero
 {
     height: 100vh;
-    background: url('../src/image.jpg') no-repeat center center/cover;
+    background: url('/src/home/showcase.jpg') no-repeat center center/cover;
     position: relative;
     color: #fff;
 }
@@ -103,4 +103,75 @@ li a:hover
 #hero *
 {
     z-index: 10;
+}
+
+#navbar
+{
+    z-index: 11;
+}
+
+/* Showcase box */
+#solutions
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#solutions #columns
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+#columns #bespoke-content
+{
+    background: #28a745;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1.2rem;
+}
+
+#columns #bespoke-content, #columns img
+{
+    height: 100%;
+    width: 100%;
+}
+
+#columns img
+{
+    object-fit: cover;
+}
+
+#bespoke-content h4
+{
+    margin-bottom: 10px;
+    margin: 0px 30px;
+    font-size: 16px;
+}
+
+#bespoke-content h2
+{
+    font-size: 40px;
+    font-weight: 100;
+    margin: 20px 30px;
+}
+
+#bespoke-content p
+{
+    margin: 10px 30px 20px 30px;
+}
+
+#columns .button
+{
+    margin: 10px 30px 30px 30px;
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
 }
